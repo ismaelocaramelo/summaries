@@ -4,7 +4,7 @@
 
 # Why ?
 
-> It's a f\*\* pain change the Dom as it is. The DOM (Document Object Model) is an object-oriented representation of the web page, which can be modified with a scripting language such as JavaScript. It's quite expensive manipulating the DOM because is based on a tree structure and make changes continuasly, finding a node in the middle of a web page is of course risky and time consuming. No even talk about events, ajax...etc. So one of the problem React solves for as is instead of manually find the node to do something React takes care of that in a very declaritive way. However the DOM api methods are called under the hood.
+> It's a f\*\* pain change the Dom as it is. The DOM (Document Object Model) is an object-oriented representation of the web page, which can be modified with a scripting language such as JavaScript. It's quite expensive manipulating the DOM because is based on a tree structure and make changes continuasly, finding a node in the middle of a web page is of course risky and time consuming. No even talk about events, ajax...etc. So one of the problem React solves for us is instead of manually find the node to do something, React takes care of that in a very declaritive way. However the DOM api methods are called under the hood.
 
 ```javascript
 const weirdlist = document.querySelectorAll(".weird");
@@ -16,7 +16,7 @@ Array.from(weirdlist, element => {
 });
 ```
 
-> Note: I am not disregarding the DOM as it is, in fact my purpose is make the point for large applications where the HTML is huge and many operations are taking place.
+> Note: I am not disregarding the DOM as it is, in fact, my purpose is make the point for large applications where the HTML is huge and many operations are taking place.
 
 ## Wait, Components and virtual DOM
 
@@ -67,7 +67,7 @@ export default React => {
 };
 ```
 
-> React use JSX which looks similar to HTML and transpile in JavaScript.
+> React use JSX which looks similar to HTML but transpile in JavaScript.
 
 * Use inherit methods to transform into elements (React.createElement('button', null, 'A button'))
 * To use a class which is a reserved word in js, React use className.
