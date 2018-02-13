@@ -6,9 +6,9 @@
 
 # Types
 
-> Parent to Child Components
-> Child to Parent Components
-> Not-related Components
+> Parent to Child Components,
+> Child to Parent Components,
+> Not-related Components,
 
 * Remember: Props down events up
 
