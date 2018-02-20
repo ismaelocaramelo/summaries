@@ -118,4 +118,4 @@ async function askDrink() {
 askDrink();
 ```
 
-![IMG](https://media.giphy.com/media/l44QCLYsKeedfN5ni/giphy.gif)
+<!-- ![IMG](https://media.giphy.com/media/l44QCLYsKeedfN5ni/giphy.gif) -->
