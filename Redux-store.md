@@ -1,6 +1,6 @@
 # Understanding Redux
 
-![IMG](https://media.giphy.com/media/3ohhwkXgsM2rMOyRi0/giphy.gif)
+<!-- (https://media.giphy.com/media/3ohhwkXgsM2rMOyRi0/giphy.gif) -->
 
 # Everything starts from a store.
 
