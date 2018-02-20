@@ -60,4 +60,4 @@ unsubscribe();
 
 > replaceReducer
 
-* Well is very declarative. But I'd prefer another way to handle reducers, which commonly used. Takes the next reducer for the store to use.
+* Well is very declarative. Takes the next reducer for the store to use. But I'd prefer another way to handle reducers, which is commonly used.
