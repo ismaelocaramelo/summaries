@@ -4,7 +4,7 @@
 
 # Why ?
 
-> It's a f\*\* pain change the Dom as it is. The DOM (Document Object Model) is an object-oriented representation of the web page, which can be modified with a scripting language such as JavaScript. It's quite expensive manipulating the DOM because is based on a tree structure and make changes continuasly, finding a node in the middle of a web page is of course risky and time consuming. No even talk about events, ajax...etc. So one of the problem React solves for us is instead of manually find the node to do something, React takes care of that in a very declaritive way. However the DOM api methods are called under the hood.
+> It's a pain change the Dom as it is. The DOM (Document Object Model) is an object-oriented representation of the web page, which can be modified with a scripting language such as JavaScript. It's quite expensive manipulating the DOM because is based on a tree structure and make changes continuasly, finding a node in the middle of a web page is of course risky and time consuming. No even talk about events, ajax...etc. So one of the problem React solves for us is instead of manually find the node to do something, React takes care of that in a very declaritive way. However the DOM api methods are called under the hood.
 
 ```javascript
 const weirdlist = document.querySelectorAll(".weird");
@@ -197,4 +197,4 @@ this.setState((prevState, props) => ({
 
 * componentDidCatch()
 
-_See more in http://go.codeschool.com/react-lifecycle-methods_
+_See more in https://reactjs.org/docs/react-component.html_
