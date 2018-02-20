@@ -1,6 +1,6 @@
 # Lifecycle
 
-![IMG](https://media.giphy.com/media/3oEjI0zBPtJFnfLCRW/giphy.gif)
+<!-- (https://media.giphy.com/media/3oEjI0zBPtJFnfLCRW/giphy.gif) -->
 
 > As React uses the concept of components and the virtual DOM, we can interact with the component itself. Lifecycle methods are to be used to run code and interact with your component at different points in the components life. These methods are based around a component Mounting, Updating, and Unmounting.
 
