@@ -1,6 +1,6 @@
 # Redux
 
-![IMG](https://media.giphy.com/media/XxTQLNIGgI7sY/giphy.gif)
+<!--- (https://media.giphy.com/media/XxTQLNIGgI7sY/giphy.gif) -->
 
 > The only source of truth, management library application-level state.
 
