@@ -115,7 +115,7 @@ export const combineReducers = () => (state, action) => ({
 * Does not work with immutable.js-based states
 * Not suitable for (most) very large projects
 
-# Custom own reducer
+# Custom combine reducer
 
 ```javascript
 export const combineReducers = config => {
