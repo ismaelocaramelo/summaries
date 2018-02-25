@@ -105,12 +105,10 @@ const dummyMiddleware = ({ getState, dispatch }) => nextDispatch => accion => {
 
 # Most used middlewares.
 
-> Redux Thunk => Allows functions to be passed to dispatcher
-> Redux Saga => Runs asynchronous processes
-> Redux Promise => Allows promises to be passed to dispatcher
-> Redux Logger => Logs actions to the console
-> Redux Undo => Revert to previous application states
+* Redux Thunk => Allows functions to be passed to dispatcher
+* Redux Saga => Runs asynchronous processes
+* Redux Promise => Allows promises to be passed to dispatcher
+* Redux Logger => Logs actions to the console
+* Redux Undo => Revert to previous application states
 
-# Saga middleware
-
-> To be continued...
+[Part 2](redux-common-middlewares.md)

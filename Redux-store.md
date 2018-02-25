@@ -61,3 +61,5 @@ unsubscribe();
 > replaceReducer
 
 * Well is very declarative. Takes the next reducer for the store to use. But I'd prefer another way to handle reducers, which is commonly used.
+
+[Continue 3](Redux-reducer.md)

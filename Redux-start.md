@@ -16,42 +16,46 @@
 
 Diagram: [Imgur](https://i.imgur.com/qYK0QJZ.png)
 
-
 # Let's follow the diagram.
 
 1. Create a Redux store with createStore.
 
 ```javascript
-import { createStore } from 'redux'
-import todoApp from './reducers'
-let store = createStore(todoApp, { inistialStateVariable: "derp"})
+import { createStore } from "redux";
+import todoApp from "./reducers";
+let store = createStore(todoApp, { inistialStateVariable: "derp" });
 ```
 
 2. Use connect to connect component to Redux store and pull props from store to component.
+
 ```javascript
-import { connect } from 'react-redux'
-const VisibleTodoList = connect( mapStateToProps, mapDispatchToProps)(TodoList)
-export default VisibleTodoList
+import { connect } from "react-redux";
+const VisibleTodoList = connect(mapStateToProps, mapDispatchToProps)(TodoList);
+export default VisibleTodoList;
 ```
+
 3. Define actions that allow your components to send messages to the Redux store.
 
 ```javascript
 /*
  * action types
  */
-export const ADD_TODO = 'ADD_TODO'
-export function addTodo(text) { return { type: ADD_TODO, text }}
+export const ADD_TODO = "ADD_TODO";
+export function addTodo(text) {
+  return { type: ADD_TODO, text };
+}
 ```
+
 4. Reducers (pure functions)
 
 ```javascript
-function todoApp(state = initialState, action) { 
+function todoApp(state = initialState, action) {
   switch (action.type) {
     case SET_VISIBILITY_FILTER:
-    return Object.assign({}, state, { visibilityFilter: action.filter})
-  default: 
-    return state
-  } 
+      return Object.assign({}, state, { visibilityFilter: action.filter });
+    default:
+      return state;
+  }
 }
 ```
 
@@ -61,6 +65,4 @@ function todoApp(state = initialState, action) {
 
 2. Real time with dev tools => Track actions and state changes in real time.
 
-
-
-
+[Continue 2](Redux-store.md)

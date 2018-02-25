@@ -198,3 +198,5 @@ this.setState((prevState, props) => ({
 * componentDidCatch()
 
 _See more in https://reactjs.org/docs/react-component.html_
+
+[Continue 2](React2.md)

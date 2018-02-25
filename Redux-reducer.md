@@ -144,3 +144,5 @@ export const reducer = combineReducers({
 ```
 
 **I hope it helps :)**
+
+[Continue 4](Redux-Middleware.md)

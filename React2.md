@@ -91,3 +91,5 @@
 
 * B has specific features defined to compose something
 * B should only know how to render not what to render
+
+[Continue 3](React3.md)

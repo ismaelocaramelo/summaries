@@ -60,3 +60,5 @@ export default Parent;
 > If a component does not have parent-child relationship. The only way is by subscribing to events, and the other writes into. They are based in the observer pattern. More info: [Here](https://github.com/millermedeiros/js-signals/wiki/Comparison-between-different-Observer-Pattern-implementations)
 
 > However, we want things modular as possible, manteinable and easy to implement. If we apply the observer pattern is likely that a party of events will take place. So somehow we need a mechanisms to reduce time consuming and responsible to handle the state of the application. Redux which I will cover later is mainly the best approach.
+
+[Continue 4](React4.md)
