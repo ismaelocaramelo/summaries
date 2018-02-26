@@ -30,7 +30,7 @@ export default thunk;
 
 > Your application may need async task such as fetch users, promises... etc. Thunk middleware provide that dispatching actions as if it were normal actions
 
-### Examples:
+### Example:
 
 ```javascript
 function complexSynchronousThunk(someValue) {
@@ -55,7 +55,11 @@ store.dispatch(complexSynchronousThunk(34));
 
 # How ?
 
-> First of all we need to inserted into the middleware chain. Sagas (processes) are started, Middleware chain passed a copy of any actions dispatched
+> First of all we need to inserted into the middleware chain. Sagas (processes) are started, middleware chain passed a copy of any actions dispatched.
+
+# Why ?
+
+> We love to look at things which are declarative and sync looking. Saga is based on generators (see [AsyncThings](AsyncThings.md) for understanding generators). To recapitulate, generators suspend the child process to yield something (api request, delay stuff...).
 
 ## Steps
 
