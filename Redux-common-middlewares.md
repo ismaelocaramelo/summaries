@@ -70,6 +70,6 @@ store.dispatch(complexSynchronousThunk(34));
 5. Saga executes, creates side-effects
 6. Process repeats indefinitely
 
-**Will continue soon**
+**I really encourage you to follow the documentation as well as the example in [Redux-doc](https://redux-saga.js.org/docs/introduction/) to fully understand it. Good luck**
 
 [Part 1](Redux-middleware.md)
