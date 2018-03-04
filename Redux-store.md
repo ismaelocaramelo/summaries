@@ -6,7 +6,7 @@
 
 > Store is a function that takes three parameters (reducer, preloadState, enhancer) and returns and object with a couple of methods to interact with the store (suscribe, dispatch, replaceReducer, getState).
 
-**I will cover reducer and enhancer in separate files as it a complex topic**
+**I will cover reducer and enhancer in separate files as it's a complex topic**
 
 * The reducer is a must when creating store. The others arguments are optional however in large applications becomes necessary.
 
@@ -16,7 +16,7 @@ import { createStore } from "redux";
 const store = createStore(reducer); //Simple store
 ```
 
-> The store acts as hold tree state. Let's imagine is a factory of cars. The factory has mechanisms (reducers) to take all the pieces that are already there and assembly them into cars. The factory may have these pieces ready to use or may not (preloadState). And finally every good factory has a director (middleware) who decide what to do before to the piece is assembly in the line of production. Each parameter will be covered later.
+> The store acts as hold tree state. Let's imagine is a factory of cars. The factory has mechanisms (reducers) to take all the pieces that are already there and assembly them into cars. The factory may have these pieces ready to use or may not (preloadState). And finally every good factory has a director (middleware) who decide what to do before the piece is assembly in the line of production. Each parameter will be covered later.
 
 > The store allows you read the state, dispatch actions and subscribe to changes.
 
